@@ -1,0 +1,39 @@
+h1 {
+    text-indent: 150px;
+
+}
+
+#sidebar {
+    position: fixed;
+    background-color: royalblue;
+    color: white;
+    top: 50px;
+    width: 80px;
+
+}
+
+.not-important {
+    background-color: red;
+    overflow: hidden;
+    width: 125px;
+    height: 100px;
+}
+
+.more-important {
+    background-color: palevioletred;
+    top: -50px;
+    left: 100px;
+    position: relative;
+    z-index: -1;
+    width: 200px;
+}
+
+.important {
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    top: 80px;
+    width: 200px;
+    height: 75px;
+    overflow-y: scroll;
+}

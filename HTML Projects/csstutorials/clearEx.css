@@ -1,0 +1,26 @@
+.div3 {
+    background-color: greenyellow;
+
+}
+
+#turtle_left {
+    border: 3px inset black;
+    float: left;
+    margin: 0px;
+}
+
+.div4 {
+    background-color: palevioletred;
+
+}
+
+#cat_right {
+   border: 3px inset black;
+   float: right;
+
+}
+
+.clear-it {
+    clear: both;
+
+}

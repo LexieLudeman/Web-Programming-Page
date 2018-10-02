@@ -1,0 +1,169 @@
+body {
+    background-image:url('../images/background.jpg');
+    background-repeat: repeat, no-repeat;
+}
+
+h1 {
+    text-align:center;
+    font-size: 60px;
+    font-family: monospace;
+}
+h2 {
+    text-align:center;
+    font-size: 50px;
+    font-family: monospace;
+    }
+h3 {
+    text-align:center;
+    font-size: 40px;
+    font-family: monospace;
+    }
+p {
+    text-align:left;
+    font-size: 20px;
+    font-family:monospace;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    font-size:20px; 
+    font-family:monospace;
+    max-width:60%;
+    margin: auto;
+    text-align: left;
+}
+code {
+    text-align: center;
+    font-size: 15px;
+    width: 30%;
+}
+.check {
+    width: 10%
+}
+.schedule thead{
+    background-color: lightgreen;
+    color: purple;
+    border-top: 10px;
+}
+
+.schedule tfoot{
+    background-color: skyblue;
+    color: brown;
+}
+.schedule tbody{
+    background-color: lavenderblush;
+}
+
+.schedule, .schedule th, .schedule td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.languages th{
+    background-color: black;
+    color: gray;
+}
+
+.languages tr:nth-child(even) {
+    background-color:silver;
+}
+
+.languages tr:nth-child(odd) {
+    background-color: azure;
+}
+
+.zelda tr{
+    text-align: center;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+.zelda th, .zelda td {
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.zelda tr:last-of-type {
+    border-bottom: none;
+}
+
+#gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+a:link {
+    color:purple;
+}
+
+a:visited {
+    color:darkblue;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:active {
+    color: magenta
+}
+
+p::first-letter {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+div.life {
+    color:black;
+}
+
+.rand {
+    font-size: x-large;
+}
+.Rockies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.Rockies:hover {
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.toothlessLink {
+    background-color:lavender;
+    font-size: 20px;
+    text-decoration: none;
+    border:none;
+    width: 250px;
+    height:75px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.toothlessLink a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+.toothlessLink:hover {
+    background-color:lavender;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+
+    opacity: 1;
+}
