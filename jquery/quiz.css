@@ -23,13 +23,13 @@ h2 {
 
 aside {
     width: 20%;
+    height: 80%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: left;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: black;
-    font-size: large;
     border: 1px solid black;
     font-family: monospace;
 }
