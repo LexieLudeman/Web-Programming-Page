@@ -21,6 +21,19 @@ h2 {
     font-family: monospace;
 }
 
+aside {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: black;
+    font-size: large;
+    border: 1px solid black;
+    font-family: monospace;
+}
+
 
 /* TO DO: 
 
