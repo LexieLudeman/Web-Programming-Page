@@ -23,7 +23,7 @@ h2 {
 
 aside {
     width: 20%;
-    height: 80%;
+    height: 600px;
     padding-left: .5rem;
     margin-left: .5rem;
     float: left;
@@ -46,3 +46,21 @@ aside {
     Four boxes to select a question (choose a theme for your quiz and four relevant questions to that theme).
 
     */
+
+    .qBox {
+        display:inline-block;
+        width:30px;
+        height:30px;
+        background-color:#ccc;
+        border:1px solid #ff0000;
+    }
+
+p {
+    padding-left: 15px;
+    margin-left: 15px;
+    float: auto;
+}
+
+#answerSpace, #questionSpace {
+
+}
