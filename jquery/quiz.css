@@ -20,6 +20,10 @@ h2 {
     font-size: 50px;
     font-family: monospace;
 }
+#questionHistory {
+    display: block;
+    position: left;
+}
 
 aside {
     width: 20%;
