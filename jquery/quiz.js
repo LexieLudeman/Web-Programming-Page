@@ -1,22 +1,52 @@
+var questionBoxState = false;
+var answer;
+
+
 $(document).ready(function(){
-    $("button").click(function(){
-        $("p").text("Hello world!");
+    if (questionBoxState==false){
+        $(".qBox").hover(function(){
+            $(this).css("background-color", "yellow");
+            $('#questionSpace').text("Click to see the question");
+        }, function(){
+            $(this).css("background-color", "#bd8eff");
+            $('#questionSpace').text("");
+        });
+    }
+
+    $("#first").click(function(){
+        $('#questionSpace').text("A Link to the Past is the only Zelda game released for SNES");         
+        questionBoxState=true;
+        answer=false;
+    });
+
+    $("second").click(function(){
+        $('#questionSpace').text("Clefairy was supposed to be the Pokemon mascot");         
+        questionBoxState=true;
+        answer=true;
+    });
+
+    $("third").click(function(){
+        $('#questionSpace').text("Mario was originally called Jumpman and was a carpenter");         
+        questionBoxState=true;
+        answer=true;
+    });
+
+    $("fourth").click(function(){
+        $('#questionSpace').text("Roy is the only previous fighter that will not be included in the newest game");         
+        questionBoxState=true;
+        answer=false;
     });
 });
 
 
 
+
+
+
+
+
+
 /* TO DO:
-
-PART 2:
-
-When the mouse enters over one of the question boxes, you must use jQuery to accomplish the following.  Do not use the :hover pseudo-class provided by CSS.  From this part forward, jQuery should be used to accomplish the desired tasks.  (You may have different CSS classes created to toggle styling.  But as stated, we don't want to use :hover.)
-
-    The background color of the box will change
-    The text in the question box will say "Click to see the question" (or similar wording)
-    When the mouse leaves the box, the normal background color is restored and the text in the question box is cleared
-
-
 
 Part 3:
 When the user clicks on a box to select a question:
