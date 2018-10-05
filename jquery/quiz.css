@@ -20,20 +20,22 @@ h2 {
     font-size: 50px;
     font-family: monospace;
 }
+
 #questionHistory {
     display: block;
     position: left;
+    background-color:#ccc;
 }
 
 aside {
     width: 20%;
+    height: 600px;
     padding-left: .5rem;
     margin-left: .5rem;
     float: left;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: black;
-    font-size: large;
     border: 1px solid black;
     font-family: monospace;
 }
@@ -50,3 +52,27 @@ aside {
     Four boxes to select a question (choose a theme for your quiz and four relevant questions to that theme).
 
     */
+
+.qBox {
+    display:inline-block;
+    width:200px;
+    height:100px;
+    padding-left: 15px;
+    margin-left: 30px;
+    background-color:#ccc;
+    border:1px solid black;
+}
+
+p {
+    padding-left: 15px;
+    margin-left: 15px;
+    float: auto;
+}
+
+#answerSpace, #questionSpace {
+    border: 1px solid black;
+    float:right;
+    height: 100px;
+    width: 70%;
+    background-color: #ccc;
+}
